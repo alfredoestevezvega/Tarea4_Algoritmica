@@ -3,5 +3,5 @@ binario de búsqueda.
 """
 from Class_nodo import *
 
-A = NodoArbol("A","B","c","d","E")
+A = NodoArbol("A","B","c","d","E","I","F")
 print(A.tieneAlgunHijo())
