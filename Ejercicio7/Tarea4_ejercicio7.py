@@ -22,5 +22,6 @@ print("Montículo después de eliminar el máximo elemento:", monticulo)
 
 # Construimos un montículo a partir de una lista desordenada
 lista_desordenada = [9, 4, 7, 2, 6]
+print("Generamos una lista desordenada para probar su eficacia: ",lista_desordenada)
 monticulo.construirMonticulo(lista_desordenada)
-print("Montículo construido a partir de una lista desordenada:", monticulo)
+print("Creamos el monticulo con dicha lista:", monticulo)

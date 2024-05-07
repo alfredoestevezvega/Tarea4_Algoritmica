@@ -31,7 +31,10 @@ cout<<"Ejercicio11:"<<endl;
 
 //Ejercicio12
 cout<<"Ejercicio12:"<<endl;
-    recorrido_anchura(g,3);
+    int recorrido;
+    cout<<"Introduce el nº para el cual queires hacer el recorrido de anchura: "<<endl;
+    cin>>recorrido;
+    recorrido_anchura(g,recorrido);
     cout<<endl;
     return 0;
 }

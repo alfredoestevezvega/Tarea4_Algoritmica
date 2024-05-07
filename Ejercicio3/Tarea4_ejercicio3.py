@@ -3,5 +3,7 @@ binario de búsqueda.
 """
 from Class_nodo import *
 
-A = NodoArbol("A","B","c","d","E","I","F")
-print(A.tieneAlgunHijo())
+arbol = NodoArbol("1","2","3","4")
+
+
+print(arbol.encontrarSucesor())
