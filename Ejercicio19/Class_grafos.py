@@ -1,4 +1,6 @@
 """Escribe el método transponer para la clase Grafo."""
+import matplotlib as plt
+import networkx as nx
 from Class_Vertices import Vertice
 class Grafo:
     def __init__(self):
@@ -33,4 +35,8 @@ class Grafo:
     def __iter__(self):
         return iter(self.listaVertices.values())
 
+
+
+    def transponer ():
+        
 
