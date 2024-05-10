@@ -14,9 +14,15 @@ es asi pues cambia el valor de la misma
 Ejercicio5:
 Simplemnete se le han borrado los parentesis, ya que es un arbol que en la union de dos nodos aparece una operacion ("+","-"...)
 
+Ejercicio6:
+Implementando heapsort conseguimos una funciión de 
+ordenamiento de tiempo O(nlogn).
 
 Ejercicio7:
 Se ha cambiado la clase Class_monticulos para que ahora sea un monticulo de tipo maximo
+
+Ejercicio8:
+Implementamos MonticuloBinario en cola de prioridad añadiendo agregar y avanzar.
 
 Ejercicio11 y 12:
 El primero simplemente es crear un grafo con la clase "Class_grafos.hpp" solamente con aristas. En el ejercicio 12 se ha creado una 
@@ -27,6 +33,14 @@ Ejercicio13:
 Es O(V + E), donde V es el número de vértices y E es el número de aristas en el grafo. Esta complejidad es necesaria para construir 
 correctamente el grafo, ya que es necesario iterar sobre todos los vértices y aristas para conectarlos adecuadamente.
 
+Ejercicio14:
+Con la base del ejercicio8 implementamos el algoritmo Dijkstra.
+
+Ejercicio15:
+Con las bibliotecas networkx y matplotlib.pyplot mostramos gráficamente la solución del grafo plaanteado.
+
+Ejercico16:
+implementamos el algoritmo de Prim parecido a como impplementamos anteriormete el Dijkstra. 
 
 Ejercicio17:
 ¿Cuál es el tiempo de ejecución O-grande para el algoritmo de Prim del árbol de expansión mínimo?
@@ -36,6 +50,12 @@ el grafo. Si se utiliza una cola de prioridad implementada con un montículo bin
 el tiempo de ejecución del algoritmo de Prim es aproximadamente O(E log V), donde E es el número de aristas y V
 es el número de vértices en el grafo.
 
+Ejercicio18:
+Solucionamos el algoritmo dado con aplicando el ejercicio16.
+
 Ejercicio19:
 Se ha creado una funion que muestra los grafos y otra funcion que transpone un grafo, entonces, simplemnete se utilizan las clases para 
 crear un ejemplo.
+
+Ejercicio20:
+implementamos el algoritmo de Floyd- Warshall.
