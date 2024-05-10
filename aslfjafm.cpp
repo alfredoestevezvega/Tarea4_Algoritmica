@@ -1,4 +1,4 @@
-#include <iostream>
+/*#include <iostream>
 #include <fstream>
 
 void mostrar_grafo(const std::vector<std::vector<int>>& grafo, const std::string& titulo) {
@@ -22,4 +22,4 @@ void mostrar_grafo(const std::vector<std::vector<int>>& grafo, const std::string
     // Abrir la imagen generada
     comando = "xdg-open grafo.png";
     system(comando.c_str());
-}
+}*/

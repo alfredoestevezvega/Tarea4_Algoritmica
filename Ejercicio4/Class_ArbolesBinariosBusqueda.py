@@ -24,7 +24,6 @@ class ArbolBinarioBusqueda:
         self.tamano = self.tamano + 1
 
     def _agregar(self, clave, valor, nodoActual):
-
         if clave < nodoActual.clave:
             if nodoActual.tieneHijoIzquierdo():
                 self._agregar(clave, valor, nodoActual.hijoIzquierdo)
@@ -35,9 +34,15 @@ class ArbolBinarioBusqueda:
                 self._agregar(clave, valor, nodoActual.hijoDerecho)
             else:
                 nodoActual.hijoDerecho = NodoArbol( clave, valor, padre=nodoActual)
-
+#Para implementar el ejercicio
     def __setitem__(self, c, v):
-        self.agregar(c, v)
+        try:#Comprobamos si ya hay un nodo con esa clave
+            if self[c] != None:
+                self.eliminar(c)
+                self.agregar(c,v)
+        except KeyError:#si no lo hay simplemnete lo agregamos
+            self.agregar(c,v)
+
 
     def obtener(self, clave):
         if self.raiz:
@@ -126,11 +131,3 @@ class ArbolBinarioBusqueda:
                                                     nodoActual.hijoDerecho.cargaUtil,
                                                     nodoActual.hijoDerecho.hijoIzquierdo, 
                                                     nodoActual.hijoDerecho.hijoDerecho)
-    
-    def sustituir_misma_clave(miarbol,self,clave):
-        temp= miarbol.__contains__(self, clave)
-
-        if temp == True:
-            clave._delitem__(self, clave)
-        else :
-            return 0
