@@ -58,6 +58,4 @@ class ColaPrioridad:
 
     def avanzar(self):
         return self.monticulo.eliminarMin()
-
-
-
+    
