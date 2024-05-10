@@ -62,27 +62,9 @@ void dijkstra(int graph[V][V], int src)
         // src in the first iteration.
         int u = minDistance(dist, sptSet);
 
-        // Mark the picked vertex as processed
-        sptSet[u] = true;
-
-        // Update dist value of the adjacent vertices of the
-        // picked vertex.
-        for (int v = 0; v < V; v++)
-
-            // Update dist[v] only if is not in sptSet,
-            // there is an edge from u to v, and total
-            // weight of path from src to  v through u is
-            // smaller than current value of dist[v]
-            if (!sptSet[v] && graph[u][v]
-                && dist[u] != INT_MAX
-                && dist[u] + graph[u][v] < dist[v])
-                dist[v] = dist[u] + graph[u][v];
+        // Mark the picked vert#include <fstream>
     }
-
-    // print the constructed distance array
-    printSolution(dist);
 }
-
 // driver's code
 int main()
 {
