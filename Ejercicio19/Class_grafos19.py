@@ -37,6 +37,6 @@ class Grafo:
 
 
 
-    def transponer ():
-        
 
+
+        
