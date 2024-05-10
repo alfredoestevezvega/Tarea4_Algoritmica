@@ -1,4 +1,26 @@
+NOTA ANTES DE EMPEZAR:
+Para poder complilar los archivos de c++ entra en la terminal entra en la carpeta de cada ejercicio (cd [Nombre de la carpeta]),
+despues, una vez dentro, ya puedes compliar el ejerecico correspondiente.
 
+Ejercicio3:
+Se ha implementado la funcion encontrarSucesor inorden no recursivo en el archivo llamado "Class_Nodos" dentro de la carpeta de Ejer-
+cicio 3
+
+Ejercicio4:
+Se ha modificado la clase "Class_ArbolesBinariosBusqueda" , en concreto la funcion de "__setitem__", la que hace que cunado introduces algo
+así: ejemplo[3] = "algo" pues se introduzca directamente en el arbol binario, y ahora comprueba si la clave introducida esta repetida, y si
+es asi pues cambia el valor de la misma
+
+Ejercicio5:
+Simplemnete se le han borrado los parentesis, ya que es un arbol que en la union de dos nodos aparece una operacion ("+","-"...)
+
+
+Ejercicio7:
+Se ha cambiado la clase Class_monticulos para que ahora sea un monticulo de tipo maximo
+
+Ejercicio11 y 12:
+El primero simplemente es crear un grafo con la clase "Class_grafos.hpp" solamente con aristas. En el ejercicio 12 se ha creado una 
+funicon apra implementar el recorrido de anchura
 
 Ejercicio13:
 
@@ -13,3 +35,7 @@ El tiempo de ejecución del algoritmo de Prim depende de la estructura de datos 
 el grafo. Si se utiliza una cola de prioridad implementada con un montículo binario o un montículo de Fibonacci,
 el tiempo de ejecución del algoritmo de Prim es aproximadamente O(E log V), donde E es el número de aristas y V
 es el número de vértices en el grafo.
+
+Ejercicio19:
+Se ha creado una funion que muestra los grafos y otra funcion que transpone un grafo, entonces, simplemnete se utilizan las clases para 
+crear un ejemplo.
