@@ -1,0 +1,15 @@
+
+
+Ejercicio13:
+
+Es O(V + E), donde V es el número de vértices y E es el número de aristas en el grafo. Esta complejidad es necesaria para construir 
+correctamente el grafo, ya que es necesario iterar sobre todos los vértices y aristas para conectarlos adecuadamente.
+
+
+Ejercicio17:
+¿Cuál es el tiempo de ejecución O-grande para el algoritmo de Prim del árbol de expansión mínimo?
+
+El tiempo de ejecución del algoritmo de Prim depende de la estructura de datos utilizada para representar
+el grafo. Si se utiliza una cola de prioridad implementada con un montículo binario o un montículo de Fibonacci,
+el tiempo de ejecución del algoritmo de Prim es aproximadamente O(E log V), donde E es el número de aristas y V
+es el número de vértices en el grafo.
